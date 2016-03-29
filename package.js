@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'q42:autoform-markdown',
+  name: 'rafa93br:autoform-markdown',
   version: '1.0.0',
-  summary: 'A simple autoform markdown with preview using perak:markdown',
+  summary: 'A simple autoform markdown with preview using perak:markdown, with css fixes',
   git: 'https://github.com/Q42/meteor-autoform-markdown',
   documentation: 'README.md'
 });
@@ -21,5 +21,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('q42:autoform-markdown');
+  api.use('rafa93br:autoform-markdown');
 });
